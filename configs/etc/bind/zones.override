@@ -132,6 +132,10 @@ zone "hbonow.com." {
     file "/etc/bind/db.override";
 };
 
+zone "mysqueezebox.com." {
+    type master;
+    file "/etc/bind/db.override";
+};
 
 ###
 # SHOPS
